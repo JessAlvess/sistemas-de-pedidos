@@ -1,7 +1,8 @@
 import { Router } from 'express';
+import { WaiterController } from './controllers/waiterController';
 
 export const router = Router()
 
-router.get('/', (req, res) => {
-    return res.status(200).json({ messagem: 'O servidor está funcionando!'})
-})
+const waiterController = new WaiterController()
+
+router.get('/', waiterController.getCardapio)

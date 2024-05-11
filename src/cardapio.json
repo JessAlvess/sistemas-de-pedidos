@@ -1,0 +1,64 @@
+{
+    "restaurante": "La Trattoria",
+    "pratos_principais": [
+      {
+        "nome": "Bruschetta",
+        "descricao": "Pão italiano torrado com tomate fresco, alho, manjericão e azeite de oliva.",
+        "preco": 12.50
+      },
+      {
+        "nome": "Risoto de Funghi",
+        "descricao": "Risoto cremoso com cogumelos porcini, cebola, alho, caldo de legumes, vinho branco e queijo parmesão.",
+        "preco": 24.90
+      },
+      {
+        "nome": "Pizza Margherita",
+        "descricao": "Pizza tradicional com molho de tomate, mussarela fresca, tomate fatiado e manjericão fresco.",
+        "preco": 18.00
+      },
+      {
+        "nome": "Spaghetti Carbonara",
+        "descricao": "Massa longa cozida al dente com molho de ovos, queijo pecorino, pancetta e pimenta preta.",
+        "preco": 22.50
+      }
+    ],
+    "sobremesas": [
+      {
+        "nome": "Tiramisù",
+        "descricao": "Sobremesa clássica italiana feita com camadas de biscoitos Savoiardi embebidos em café, mascarpone e cacau em pó.",
+        "preco": 9.50
+      },
+      {
+        "nome": "Panna Cotta",
+        "descricao": "Sobremesa cremosa italiana feita com creme de leite, açúcar e gelatina, geralmente servida com calda de frutas vermelhas.",
+        "preco": 8.50
+      },
+      {
+        "nome": "Cannoli",
+        "descricao": "Sobremesa siciliana composta por uma massa doce frita recheada com creme de ricota e chocolate.",
+        "preco": 10.00
+      }
+    ],
+    "bebidas": [
+      {
+        "nome": "Vinho Chianti",
+        "descricao": "Vinho tinto italiano encorpado, produzido na região da Toscana.",
+        "preco": 45.00
+      },
+      {
+        "nome": "Água Mineral",
+        "descricao": "Água mineral italiana, disponível em garrafa.",
+        "preco": 5.00
+      },
+      {
+        "nome": "Limoncello",
+        "descricao": "Licor italiano feito a partir de limões, tradicionalmente servido gelado como digestivo.",
+        "preco": 10.00
+      },
+      {
+        "nome": "Cappuccino",
+        "descricao": "Bebida italiana feita com café expresso, leite vaporizado e espuma de leite.",
+        "preco": 7.50
+      }
+    ]
+  }

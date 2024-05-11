@@ -1,24 +1,30 @@
 # API de Pedidos para Restaurante
 
-Esta é uma API desenvolvida para gerenciar pedidos em um restaurante com o `express.js`. Utiliza a filosofia `TDD (Test Driven Development)` com testes unitários utilizando o `Jest`, desenvolvida na linguagem `TypeScript`.
+Esta é uma API desenvolvida para gerenciar pedidos em um restaurante com o `express.js`. Utiliza a filosofia `TDD (Test Driven Development)` com testes unitários utilizando o `Jest`, desenvolvida em `TypeScript`.
 
 ### Funcionalidades:
 
 * Serviço de login do garçom
+* Serviço de cardápio
 * Autenticação de usuário com JWT
 * Criptografia de senhas utilizando bcrypt
 * Gerenciamento de pedidos
+* Painel de pedidos para o chef
+* Verificação de qualidade do prato pelo chef
 * Armazenamento de dados utilizando SQLite
+* Sistema de pagamento
 
 ### Instalação
 
 1. Clone o repositório:
-```
+
+```sh
 git clone https://github.com/seu-usuario/api-pedidos-restaurante.git
 ```
 
 2. Instale as dependências:
-```
+
+```sh
 cd api-pedidos-restaurante
 npm install
 ```
@@ -29,7 +35,7 @@ Renomeie o arquivo .env.example para .env e configure as variáveis de ambiente 
 
 4. Execute as migrações do banco de dados:
 
-```
+```sh
 npm run migrate
 ```
 
@@ -37,7 +43,7 @@ npm run migrate
 
 1. Inicie o servidor:
 
-```
+```sh
 npm start
 ```
 
@@ -48,6 +54,6 @@ npm start
 
 Para executar os testes unitários:
 
-```
+```sh
 npm test
 ```
