@@ -1,6 +1,6 @@
 # API de Pedidos para Restaurante
 
-Esta é uma API desenvolvida para gerenciar pedidos em um restaurante com o `express.js`. Utiliza a filosofia `TDD (Test Driven Development)` com testes unitários utilizando o `Jest`, desenvolvida em `TypeScript`.
+Esta é uma API desenvolvida para gerenciar pedidos em um restaurante com o `express.js`. Utiliza a técnica `TDD (Test Driven Development)` com testes unitários utilizando o `Jest`, desenvolvida em `TypeScript`.
 
 ### Funcionalidades:
 
