@@ -12,10 +12,7 @@ export class WaiterController {
     }
 
     getCardapio = (req: Request, res: Response): Response => {
-        
-        const cardapio = this.waiterService.getCardapio()
-        return res.status(200).json( cardapio )
+        const menu = this.waiterService.getMenu()
+        return res.status(200).json( menu )
     }
 }
-
-

@@ -1,14 +1,16 @@
-import * as cardapio from "../cardapio.json";
-import { Cardapio } from "../interfaces/interfaces";
+import  menu from "../cardapio.json";
+import { Menu } from "../interfaces/interfaces";
 
 export class WaiterService {
-  cardapio: Cardapio;
-
-  constructor(database = cardapio) {
-    this.cardapio = database;
+  menu: Menu;
+  
+  constructor(
+    database = menu
+  ){
+    this.menu = database
   }
 
-  getCardapio = () => {
-    return cardapio;
+  getMenu = () => {    
+    return menu;
   };
 }

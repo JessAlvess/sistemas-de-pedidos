@@ -4,61 +4,72 @@
       {
         "nome": "Bruschetta",
         "descricao": "Pão italiano torrado com tomate fresco, alho, manjericão e azeite de oliva.",
-        "preco": 12.50
+        "preco": 12.50,
+        "id": 1
       },
       {
         "nome": "Risoto de Funghi",
         "descricao": "Risoto cremoso com cogumelos porcini, cebola, alho, caldo de legumes, vinho branco e queijo parmesão.",
-        "preco": 24.90
+        "preco": 24.90,
+        "id": 2
       },
       {
         "nome": "Pizza Margherita",
         "descricao": "Pizza tradicional com molho de tomate, mussarela fresca, tomate fatiado e manjericão fresco.",
-        "preco": 18.00
+        "preco": 18.00,
+        "id": 3
       },
       {
         "nome": "Spaghetti Carbonara",
         "descricao": "Massa longa cozida al dente com molho de ovos, queijo pecorino, pancetta e pimenta preta.",
-        "preco": 22.50
+        "preco": 22.50,
+        "id": 4
       }
     ],
     "sobremesas": [
       {
         "nome": "Tiramisù",
         "descricao": "Sobremesa clássica italiana feita com camadas de biscoitos Savoiardi embebidos em café, mascarpone e cacau em pó.",
-        "preco": 9.50
+        "preco": 9.50,
+        "id": 5
       },
       {
         "nome": "Panna Cotta",
         "descricao": "Sobremesa cremosa italiana feita com creme de leite, açúcar e gelatina, geralmente servida com calda de frutas vermelhas.",
-        "preco": 8.50
+        "preco": 8.50,
+        "id": 6
       },
       {
         "nome": "Cannoli",
         "descricao": "Sobremesa siciliana composta por uma massa doce frita recheada com creme de ricota e chocolate.",
-        "preco": 10.00
+        "preco": 10.00,
+        "id": 7
       }
     ],
     "bebidas": [
       {
         "nome": "Vinho Chianti",
         "descricao": "Vinho tinto italiano encorpado, produzido na região da Toscana.",
-        "preco": 45.00
+        "preco": 45.00,
+        "id": 8
       },
       {
         "nome": "Água Mineral",
         "descricao": "Água mineral italiana, disponível em garrafa.",
-        "preco": 5.00
+        "preco": 5.00,
+        "id": 9
       },
       {
         "nome": "Limoncello",
         "descricao": "Licor italiano feito a partir de limões, tradicionalmente servido gelado como digestivo.",
-        "preco": 10.00
+        "preco": 10.00,
+        "id": 10
       },
       {
         "nome": "Cappuccino",
         "descricao": "Bebida italiana feita com café expresso, leite vaporizado e espuma de leite.",
-        "preco": 7.50
+        "preco": 7.50,
+        "id": 11
       }
     ]
   }

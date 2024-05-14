@@ -1,22 +1,19 @@
 import { WaiterService } from "./waiterService"
-import { cardapio } from "../__mocks__/mockCardapio.mock"
-import { Cardapio } from "../interfaces/interfaces"
-
+import { menu } from "../__mocks__/mockMenu.mock"
 
 describe('WaiterService', () => {
-
-    const mockWaiterService: Partial<WaiterService> = {
-        getCardapio: jest.fn()
-    }
-
-    const mockCardapio: Cardapio = cardapio
-
-    const waiterService = new mockWaiterService()
-
+    
+   
     it('Deve retornar o cardápio', () => {
         
-        waiterService.getCardapio()
-        expect(mockCardapio).toHaveBeenCalledWith(mockCardapio)
-    })
+        const waiterService = new WaiterService(menu)
     
+        jest.spyOn(waiterService, 'getMenu').mockReturnValue(menu)
+    
+        const resultado = waiterService.getMenu()
+
+        expect(waiterService.getMenu).toHaveBeenCalledWith()
+
+        expect(resultado).toBe(menu)
+    })
 })
